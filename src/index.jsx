@@ -1,10 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Primeiro, Segundo} from './componente'
+import Field from './field'
 
 ReactDOM.render(
-    <div>
-        <Primeiro valor = "Primeiro" />
-        <Segundo valor = "Segundo" />
-    </div>,
-document.getElementById('app'))
+    <Field initialValue="Texto" />
+    , document.getElementById('app'))
